@@ -1,0 +1,135 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1600px;
+}
+
+.menu1 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    background-color: rgb(212, 28, 28);
+}
+
+.menu1 li {
+    display: inline;
+}
+
+.menu1 a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 12%;
+    font-size: 26px;
+    text-align: center;
+  }
+
+.menu1 a:hover {
+    color: white;
+    background: brown;
+    font-weight: bold;
+}
+
+.menu2{
+    display: inline;
+}
+
+.menu2 nav{
+    background:rgb(231, 235, 236);
+    margin: 0;
+    padding: 1px;
+}
+
+.menu2 ul{
+    list-style-type: none;
+}
+
+.menu2 li{
+    display: inline;
+    padding: 10px;
+}
+
+.menu2 a{
+    font-size: 20px;
+    color: darkslategrey;
+}
+
+header h1{
+    color:rgb(212, 28, 28);
+    font-size: 40px;
+    font-family: arial;
+}
+
+header aside{
+    float: right;
+    margin-top: -63px;
+    color: rgb(212, 28, 28);
+    font-size: 26px;
+    width: 45%;
+    margin-right: -30px;
+    font-weight: bold;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    margin: 0 20px;
+    font-size: 23px;
+}
+
+
+aside img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+article{
+    font-size: 24px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+article img{
+    width: 100%;
+}
+
+footer{
+    background: rgb(231, 235, 236);
+    width: 100%;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+footer aside{
+    float: left;
+    width: 30%;
+    margin: 15px -20px;
+    margin-right: 20px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    margin: 14px 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+    font-size: 24px;
+}
+
+footer article{
+    color:rgb(77, 75, 75);
+    text-align: center;
+    width: 95%;
+}
+
+hr{
+    height: 2px;
+    background: grey;
+}
